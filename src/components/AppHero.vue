@@ -2,16 +2,14 @@
 export default {
   data() {
     return {
-      title: 'La mia prima app con Vite!'
+      title: 'Questo e il jumbotron!'
     }
   }
 }
 </script>
 
 <template>
-  <h1>{{ title }}</h1>
+  <p>{{title}}</p>
 </template>
 
 <style scoped></style>
-
-
